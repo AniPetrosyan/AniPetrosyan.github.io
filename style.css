@@ -120,8 +120,7 @@
 .slider {
     display: flex;
     flex-direction: row;
-    
-    
+    width: 1278px;
 }   
 
 .slider-image {
@@ -165,8 +164,12 @@
     border-radius: 0px 20px 20px 0px;
 }
 
+.slider-sp-content {
+    margin-top: 10%; 
+}
+
 .sp-heading {
-    margin-left: 94px;
+    margin-left: 13%;
     font-size: 40px !important;
 }
 
@@ -193,17 +196,14 @@
     margin-left: 94px;
 }
 
-.circle-arrow {
+.circle-arrows {
     position: absolute;
     z-index: 10000;
-    margin-top: 5%;
-     /* margin-left: 45%;
-    margin-right: 55%  */
+    margin-top: 5%; 
+}
 
-   /* left: calc(100% - 750px)  /* 750*/
-   left: calc(100%-50%);
-   right: calc(100% - 50%);
-     align-items: center;
+.portfolio-circle-arrow {
+    right: calc(100% - 600px); 
 }
 
 .arrow-div {
@@ -214,7 +214,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 390px;
+    margin-bottom: 550%; 
 }
 
 .arrow {
@@ -280,14 +280,19 @@
     border-radius: 50%;
 }
 
+.service-whole-slider {
+    width: 1330px;
+}
+
 .service-slider {
     margin-left: 147px;
     border-radius: 20px 0px 0px 20px;
 }
-.service-circle-arrow{ 
-    left: calc(100%-34%);
-     right: calc(100% - 66%); 
+
+.service-circle-arrow {
+    right: calc(100% - 895px); 
 }
+
 .service-heading {
     width: 397px;
     margin-top: 141px;
@@ -303,7 +308,7 @@
 .service-circle {
     width: 28px;
     height: 28px;
-    margin-right: 33px;
+    margin-right: 30px;
     border: 1px solid #000000;
  }
 
@@ -311,11 +316,12 @@
     width: 20px;
     height: 20px;
     border: 1px solid #000000;
-    margin-right: 33px;
+    margin-right: 30px;
  }
 
+
  .supporters {
-     background-color: rgba(172, 189, 232, 0.3);
+    background-color: rgba(172, 189, 232, 0.3);
  }
 
  .supporter-logo {
@@ -361,10 +367,9 @@
  }
 
 input[type="text"]{
-        border: 0;
-        border-bottom: 2px solid #999999;
-        outline: 0;
-
+    border: 0;
+    border-bottom: 2px solid #999999;
+    outline: 0;
 }
 
 .form-up {
@@ -373,17 +378,13 @@ input[type="text"]{
 }
 
 .form-text {
-    font-family: GHEA Grapalat;
-    font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    margin-right: 103px;
-    width: 140px;
+    width: 47%;
 }
 
 .forms {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .name-form {
@@ -396,7 +397,7 @@ input[type="text"]{
 
 .contact-button {
     margin-top: 80px;
-    margin-left: 25%;
+    margin-left: 18%;
     width: 320px;
     height: 60px;
     color: #683594;
@@ -424,7 +425,6 @@ input[type="text"]{
 .footer-link {
     margin-top: 25px;
 }
-
 
 .icon{
     margin-right: 32px;
